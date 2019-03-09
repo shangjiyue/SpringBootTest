@@ -1,0 +1,15 @@
+server:
+ port: 8080
+ context-path: /springboot
+spring:
+# profiles:
+#   active: localhost
+ datasource:
+   username: root
+   password: shang123456
+   url: jdbc:mysql://localhost:3306/test1?useUnicode=true&characterEncoding=UTF-8
+ thymeleaf:
+   cache: false
+   mode: LEGACYHTML5
+   prefix: classpath:/templates/
+   suffix: .html
